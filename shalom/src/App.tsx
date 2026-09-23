@@ -256,8 +256,8 @@ const reviews = [
 /* ============================================================
    CONTACT INFORMATION - EDIT YOUR DETAILS HERE
    ============================================================ */
-const PHONE = "0930 815 7059";                                    // Display phone number
-const PHONE_TEL = "tel:+639308157059";                            // Clickable phone link
+const PHONE = "09569256576";                                    // Display phone number
+const PHONE_TEL = "tel:+69569256576";                            // Clickable phone link
 const DELIVERY_PHONE = "0956 925 6576";                           // Delivery-exclusive line (from Rice Bowl menu page)
 const DELIVERY_TEL = "tel:+639569256576";                         // Clickable delivery phone link
 const FB_URL = "https://www.facebook.com/p/Shalom-Caf%C3%A8-100064145404745/"; // Facebook page URL
@@ -609,7 +609,7 @@ function About() {
                   <Clock className="w-5 h-5 text-warm-700" />
                 </div>
                 <div>
-                  <div className="text-sm font-semibold text-charcoal">Open Daily</div>
+                  <div className="text-sm font-semibold text-charcoal">Open Daily from Monday-Saturday</div>
                   <div className="text-xs text-stone-500">Until 8:00 PM</div>
                 </div>
               </div>
@@ -1098,7 +1098,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <div className="text-xs text-stone-500 mb-1 font-medium uppercase tracking-wider">Hours</div>
-                  <div className="text-sm font-bold text-charcoal">Open Daily</div>
+                  <div className="text-sm font-bold text-charcoal">Open Daily from Monday to Saturday</div>
                   <div className="text-xs text-stone-500 mt-0.5">Closes at 8:00 PM</div>
                 </div>
               </div>
@@ -1179,7 +1179,7 @@ function Footer() {
                 <Phone className="w-4 h-4" />
               </a>
               <a
-                href={`sms:+639308157059`}
+                href={`sms:+69569256576`}
                 className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-green-600 transition-colors duration-300"
                 aria-label="Message"
               >
